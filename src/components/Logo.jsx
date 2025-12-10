@@ -1,9 +1,9 @@
-function Logo({ width = "100px" }) {
+import React from 'react'
+
+function Logo({width = '100px'}) {
   return (
-    <div className="font-bold tracking-wider text-xl hover:scale-105 duration-200 font-sans">
-      Mega Blog
-    </div>
-  );
+    <div>Logo</div>
+  )
 }
 
-export default Logo;
+export default Logo
